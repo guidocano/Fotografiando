@@ -1,0 +1,182 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  row-gap: 0px;
+  overflow: hidden;
+}
+
+#columnasyfilas {
+  grid-template-rows: 40px 77vh auto 25px;
+  grid-template-columns: 100vw;
+}
+
+.navbar {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 5px;
+}
+#logocamera {
+  width: 30px;
+  vertical-align: middle;
+  padding-right: 0%;
+}
+
+.navtext {
+  color: black;
+  padding: 2%;
+  text-decoration: none;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: large;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: "Rufina", serif;
+}
+
+.cuerpo {
+  height: 100%;
+}
+
+#textocuerpo {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 22px;
+  padding-right: 40px;
+  text-shadow: 1px 1px 5px black;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 40px;
+}
+
+.p1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#div_imagen {
+  height: 100%;
+}
+
+#imagen_portada {
+  height: 115%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 90% 40%;
+}
+
+#overtext {
+  margin-left: 5%;
+  position: absolute;
+  color: white;
+  text-shadow: 1px 1px 0px black;
+}
+
+.info {
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: medium;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hinfo {
+  margin-bottom: -15px;
+}
+
+#info_text {
+  margin-top: -25px;
+  margin-bottom: -20px;
+}
+
+.footer {
+  background-color: rgb(185, 65, 105);
+  color: whitesmoke;
+  text-align:center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: medium;
+  vertical-align: middle;
+    }
+
+.footer_text{
+  padding-left: 3px;
+}
+
+a.wlink:link {
+  color: whitesmoke;
+}
+
+a.wlink:visited {
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+  #textocuerpo {
+    font-size: 25px;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  #imagen_portada {
+    object-position: bottom;
+  }
+  #columnasyfilas {
+    grid-template-rows: 40px 80vh auto 22px;
+    grid-template-columns: 100vw;
+  }
+  .navbar {
+    padding: 3px;
+  }
+  #logocamera {
+    width: 30px;
+  }
+  .navtext {
+    padding: 4%;
+    font-size: x-large;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  #textocuerpo {
+    font-size: 30px;
+    padding-right: 150px;
+  }
+  #overtext {
+    margin-right: 20%;
+  }
+  .info {
+    font-size: large;
+  }
+  #hinfo {
+    margin-bottom: -23px;
+  }
+  .footer {
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #div_imagen {
+    margin-left: 0px;
+  }
+  #imagen_portada {
+    object-position: 50% 70%;
+  }
+  #overtext {
+    margin-left: 3%;
+    margin-right: 40%;
+  }
+}
