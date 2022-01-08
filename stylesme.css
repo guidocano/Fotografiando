@@ -171,6 +171,7 @@ footer {
   font-size: medium;
   vertical-align: middle;
   bottom: 0;
+  
 }
 
 a.wlink:link {
@@ -264,7 +265,7 @@ a.wlink:visited {
   #textocuerpo {
     font-size: 30px;
     display: flex;
-    margin-top: -25px;
+    margin-top: -30px;
   }
   .item {
     margin-left: 40px;
@@ -275,7 +276,7 @@ a.wlink:visited {
   }
 
   footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
   }
