@@ -6,7 +6,6 @@ body {
 
 /* NAVBAR */
 
-
 .navbar a{
   transition: all 0.4s ease;
   font-weight: 600;
@@ -14,25 +13,34 @@ body {
 .navbar a:hover{
   color: rgb(185, 65, 105);
   font-weight: 600;
-  text-shadow: 50 20px 50px rgb(185, 65, 105);
+  text-shadow: 2px 2px 40px rgba(185, 65, 105, 0.3);
+  
   
 }
 .navbar {
   background-color: whitesmoke;
   text-align: center;
   padding: 5px;
-  
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 #logocamera {
   width: 30px;
-  vertical-align: middle;
+  vertical-align: sub;
   padding-right: 0%;
   border-radius: 50%;
-  transition: all 0.4s ease;
+  /* transition: all 0.4s ease; */
 }
 
-#logocamera:hover{
-  box-shadow: 0 5px 15px rgba(182, 92, 178, 0.4);
+/* #logocamera:hover{
+  box-shadow: 2px 2px 40px rgba(185, 65, 105, 0.6);
+} */
+
+#home:hover{
+  text-shadow: 2px 2px 40px rgba(185, 65, 105, 0.6);
+}
+
+.navbar span{
+  display:none;
 }
 
 .navtext {
@@ -177,6 +185,7 @@ a.wlink:visited {
 }
 
 @media screen and (min-width: 480px) {
+  
   h1 {
     font-size: 40px;
   }
@@ -188,7 +197,10 @@ a.wlink:visited {
 
 @media screen and (min-width: 760px) {
 
-  
+  .navbar span{
+    display:inline;
+  }  
+
   #bandera {
     object-fit: cover;
     margin-left: 20%;
@@ -249,6 +261,7 @@ a.wlink:visited {
   .footer {
     font-size: medium;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
