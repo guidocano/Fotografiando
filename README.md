@@ -1,4 +1,5 @@
 # Fotografiando
-Sitio web personal de viajes y fotografía.
+Travel and Photography Website.
+Using HTML5, CSS, Javascript and Bootstrap.
 
-Ver sitio online: https://guidocano.github.io/Fotografiando/index.html
+See online: https://guidocano.github.io/Fotografiando/index.html
